@@ -141,6 +141,14 @@ h1 {
   color: #111;
 }
 
+.section-default p {
+  padding: 10px 0;
+  text-align: center;
+  font-size: 14px;
+  font-family: arial;
+  color: #111;
+}
+
 /* signup.php */
 
 .form-signup {
@@ -175,18 +183,64 @@ h1 {
   text-transform: uppercase;
   text-align: center;
 }
+
 .signuperror {
-  padding-top: 14px;
-  font-family: arial;
-  font-size: 16px;
-  color: red;
-  text-align: center;
+  padding-top: 14px !important;
+  font-family: arial !important;
+  font-size: 16px !important;
+  color: red !important;
+  text-align: center !important;
 }
 
 .signupsuccess {
-  padding-top: 14px;
+  padding-top: 14px !important;
+  font-family: arial !important;
+  font-size: 16px !important;
+  color: green !important;
+  text-align: center !important;
+}
+
+/* RESET PASSWORD */
+
+.form-resetpwd {
+  margin: 0 auto;
+  width: 280px;
+}
+
+.form-resetpwd input {
+  width: calc(100% - 30px);
+  height: 30px;
+  padding: 0 15px;
+  margin-bottom: 6px;
+  border: 1px solid #CCC;
+  border-radius: 4px;
+  background-color: #F6F6F6;
+  float: left;
   font-family: arial;
-  font-size: 16px;
-  color: green;
+}
+
+.form-resetpwd button {
+  display: block;
+  width: 100%;
+  height: 40px;
+  padding: 0 10px;
+  margin: 0 auto;
+  border: none;
+  border-radius: 4px;
+  background-color: #333;
+  font-family: arial;
+  font-size: 13px;
+  color: #FFF;
+  text-transform: uppercase;
   text-align: center;
+}
+
+.p-forgetpwd {
+  display: block;
+  padding: 10px 0;
+  width: fit-content;
+  margin: 0 auto;
+  font-size: 14px;
+  font-family: arial;
+  color: #111;
 }
